@@ -5,7 +5,8 @@ public class App {
     Cat cat  = new Cat(); 
     
     ausgabe("Blick von aussen: " + cat);
-    cat.tellYourAddress();
+    ausgabe("Blick von innen: " + cat.tellYourAddress());
+    // cat.tellYourAddress();
    
     }
 
